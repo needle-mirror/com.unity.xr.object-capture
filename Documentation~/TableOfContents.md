@@ -1,0 +1,7 @@
+* [Unity Object Capture](index.md) 
+  * [Installing the Object Capture Package](index.md#installing-the-object-capture-package)
+  * [Getting Started](index.md#getting-started)
+    * [The Object Capture UI](GettingStarted.md#the-object-capture-ui)
+    * [Generating models with the Object Capture window](GettingStarted.md#generating-models-with-the-object-capture-window)
+    * [Generating models with the AR Companion app and Object Capture](GettingStarted.md#generating-models-with-the-ar-companion-app-and-object-capture)
+  * [Requirements](index.md#requirements)

@@ -1,0 +1,24 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement style="min-height: 600px; justify-content: flex-start; flex-grow: 1;">
+        <ui:VisualElement name="LoadObjectFromPhotosVisualElement" style="flex-wrap: nowrap; height: 150px; flex-shrink: 0; max-height: 150px;">
+            <ui:Button text="Create Object From Photos" name="selectPhotos" tooltip="Click to select the path where the photos for the object capture are and subsequently the path to generate the model" style="margin-left: 40px; margin-right: 40px; padding-top: 4px; padding-bottom: 4px; margin-top: 10px; margin-bottom: 5px; height: 30px; padding-left: 6px;" />
+            <ui:IMGUIContainer name="captureHintInfoVisualElement" style="margin-left: 20px; margin-right: 20px; margin-bottom: 12px; min-height: 85px; max-height: 85px; height: 85px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="CapturedObjectsVisualElement" style="border-left-width: 5px; border-right-width: 5px; border-top-width: 5px; border-bottom-width: 5px; flex-grow: 1;">
+            <ui:ScrollView name="ScrollView" style="flex-grow: 1;">
+                <ui:Foldout text="Captured Objects" name="capturedObjectsFoldout" class="light-mode" style="flex-grow: 1; background-image: none;" />
+            </ui:ScrollView>
+        </ui:VisualElement>
+        <ui:VisualElement tooltip="Display / hide preview window" name="PreviewWindowSeparatorVisualElement" style="background-image: resource(&apos;Images/PreviewSeparateDark&apos;); height: 20px;" />
+        <ui:IMGUIContainer name="objectPreviewIMGUIContainer" style="flex-grow: 1; justify-content: space-between; align-items: stretch; display: flex; visibility: visible; overflow: visible; flex-shrink: 1; min-height: 40%;" />
+        <ui:VisualElement name="ObjectSettingsVisualElement" style="flex-direction: row; padding-left: 4px; padding-right: 4px; padding-top: 4px; padding-bottom: 4px; border-top-color: rgb(35, 35, 35); border-top-width: 1px; margin-left: 0; height: 30px; min-height: 30px; max-height: 30px;">
+            <ui:Button name="resetViewButton" tooltip="Resets the view for the previewed object" text="Reset" style="width: 39px; height: 20px; align-items: stretch;" />
+            <ui:Button name="adjustBoundsButton" tooltip="Allows one to manipulate the previewed object with handles" style="width: 24px; height: 20px;" />
+            <ui:Label text="Adjust pivot position and rotation" style="top: 3px;" />
+            <ui:VisualElement style="height: 21px; width: 100px; flex-grow: 1;" />
+            <ui:IMGUIContainer name="objQualityImGUIDropDown" tooltip="Sets the quality of the object when pressing the &quot;Generate&quot; button" style="min-width: 5px; min-height: 24px; height: 24px; flex-grow: 1; flex-shrink: 0; max-width: 100px;" />
+            <ui:Button text="Cancel" name="objectViewerCancel" tooltip="Cancels the current model processing if any" style="flex-grow: 0; height: 20px; width: 65px; display: flex;" />
+            <ui:Button text="Generate" name="objViewerGenerateModel" tooltip="Generates a model from the selected quality (Preview, Reduced, Medium, Full)" style="width: 67px; height: 20px; align-items: flex-start;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

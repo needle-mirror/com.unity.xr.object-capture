@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 34e2df4c3e19d7e4d9a4be244e2d739b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_ViewDataDictionary: {instanceID: 0}
+  - m_BoundingBoxPrefab: {fileID: 8212584997244988598, guid: bf7792ec34acc4f189dba6aff798fdc5,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

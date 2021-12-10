@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="rowContainer" style="flex-direction: row; margin-left: 8px; margin-right: 8px; margin-top: 2px; margin-bottom: 2px; align-items: flex-start;">
+        <ui:VisualElement name="objectIcon" style="width: 48px; height: 48px; -unity-background-scale-mode: scale-and-crop;" />
+        <ui:Label text="Object Name" name="objectName" style="top: 16px; height: 18px; width: 150px; margin-left: 8px; margin-right: 4px; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; flex-basis: auto; white-space: normal;" />
+        <ui:IMGUIContainer name="progressBar" style="width: 80px; height: 16px; margin-top: 12px; padding-left: 3px; padding-right: 3px;" />
+        <ui:Label text="Queued" name="status" style="top: 16px; height: 18px; margin-left: 8px;" />
+        <ui:Label text="Detail" name="typeOfDetailStatus" style="top: 16px; height: 18px; margin-left: 5px;" />
+        <ui:Button text="-" name="deleteButton" style="position: absolute; right: 4px; top: 12px;" />
+    </ui:VisualElement>
+</ui:UXML>

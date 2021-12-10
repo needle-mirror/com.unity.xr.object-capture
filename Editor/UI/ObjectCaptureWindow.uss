@@ -1,0 +1,18 @@
+.unity-base-field {
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(35, 35, 35, 255);
+    border-top-color: rgba(35, 35, 35, 255);
+    padding-top: 2px;
+    padding-bottom: 3px;
+    background-color: rgba(60, 60, 60, 255);
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 4px;
+}
+
+.unity-foldout__content {
+    margin-left: 0;
+}
